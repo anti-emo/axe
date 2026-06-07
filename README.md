@@ -30,7 +30,7 @@ The script fucks everything that moves. If it doesn't, he'll force.
 ## Usage
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/refs/heads/software/Anti-Emo.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/software/Anti-Emo.lua"))()
 ```
 
 ---
