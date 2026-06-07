@@ -8,16 +8,16 @@
 
 Anti Emo is a Lua-based script for [The Strongest Battlegrounds](https://www.roblox.com/games/10449761493/The-Strongest-Battlegrounds) — a fast-paced anime PvP fighting game on Roblox with over **17 billion visits**, developed by Yielding Arts.
 
-The script locks onto everything that moves.
+The script fucks everything that moves. If it doesn't, he'll force.
 
 ---
 
 ## Features
 
-- **Aim Lock** — silent aim with multiple modes (Instant, Lerp, Aggressive, Snap, Hybrid, Spiral and more)
+- **Aim Lock** — silent aim with multiple modes (Instant, Lerp, Aggressive, Snap, and more)
 - **Prediction** — velocity & movement-based prediction
-- **No Collision / No Collision+** — bypass hitbox collision
-- **Velocity Modification** — control your movement velocity
+- **No Collision / No Collision+** — bypass hitbox collision for dashes
+- **Velocity Modification** — control your movement dash velocity
 - **Cooldown Bars** — visual cooldown tracker for dashes and evasives
 - **Trusting System** — part-based trust control
 - **Visual Effects** — custom visuals and ignore list
@@ -30,7 +30,7 @@ The script locks onto everything that moves.
 ## Usage
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/main/Anti Emo.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/main/Anti-Emo.lua"))()
 ```
 
 ---
@@ -57,5 +57,3 @@ Maintained and updated irregularly depending on game patches and new mechanics.
 ## License
 
 See [LICENSE](./LICENSE) for full terms.
-
-> *"Don't call it yours. You didn't build it."*
