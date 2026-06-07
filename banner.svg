@@ -1,0 +1,121 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&amp;display=swap');
+
+      .title {
+        font-family: 'MedievalSharp', 'Palatino Linotype', serif;
+        font-size: 72px;
+        font-weight: bold;
+        fill: url(#titleGrad);
+        filter: url(#glow);
+      }
+      .sub {
+        font-family: 'MedievalSharp', 'Palatino Linotype', serif;
+        font-size: 20px;
+        fill: url(#subGrad);
+        letter-spacing: 6px;
+      }
+      .tag {
+        font-family: 'Courier New', monospace;
+        font-size: 13px;
+        fill: #666;
+        letter-spacing: 2px;
+      }
+    </style>
+
+    <!-- Animated gradient for title -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000">
+        <animate attributeName="stop-color"
+          values="#ff0000;#ff6600;#ff0000;#cc0000;#ff3300;#ff0000"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="40%" stop-color="#ffffff">
+        <animate attributeName="stop-color"
+          values="#ffffff;#ffcccc;#ff9999;#ffffff;#ffe0e0;#ffffff"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#cc0000">
+        <animate attributeName="stop-color"
+          values="#cc0000;#ff0000;#880000;#ff3300;#cc0000;#cc0000"
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Gradient for subtitle -->
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#888888">
+        <animate attributeName="stop-color"
+          values="#888888;#ff4444;#888888;#aaaaaa;#ff4444;#888888"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#ff4444">
+        <animate attributeName="stop-color"
+          values="#ff4444;#888888;#ff4444;#ff6666;#888888;#ff4444"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow for border -->
+    <filter id="borderGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0000"/>
+      <stop offset="50%" stop-color="#0d0000"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Animated border -->
+  <rect x="1" y="1" width="898" height="198" fill="none" rx="12"
+    stroke="url(#titleGrad)" stroke-width="1.5" opacity="0.6"
+    filter="url(#borderGlow)">
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative line left -->
+  <line x1="40" y1="100" x2="160" y2="100" stroke="#cc0000" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+  </line>
+  <!-- Decorative line right -->
+  <line x1="740" y1="100" x2="860" y2="100" stroke="#cc0000" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Diamond decorations -->
+  <polygon points="36,100 44,92 52,100 44,108" fill="#cc0000" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+  </polygon>
+  <polygon points="848,100 856,92 864,100 856,108" fill="#cc0000" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Main title -->
+  <text x="450" y="115" text-anchor="middle" class="title">ANTI EMO</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="155" text-anchor="middle" class="sub">THE STRONGEST BATTLEGROUNDS</text>
+
+  <!-- Tag line -->
+  <text x="450" y="180" text-anchor="middle" class="tag">lua script · roblox · anti-emo</text>
+</svg>
