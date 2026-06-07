@@ -1,11 +1,12 @@
-# Anti Emo
-> Lua script for **The Strongest Battlegrounds** (TSB) on Roblox.
+<div align="center">
+  <img src="banner.svg" alt="Anti Emo" width="900"/>
+</div>
 
 ---
 
 ## What is this?
 
-Anti Emo is a Lua-based script for [The Strongest Battlegrounds](https://www.roblox.com/games/10449761463/The-Strongest-Battlegrounds) — a fast-paced anime PvP fighting game on Roblox with over **17 billion visits**, developed by Yielding Arts.
+Anti Emo is a Lua-based script for [The Strongest Battlegrounds](https://www.roblox.com/games/10449761493/The-Strongest-Battlegrounds) — a fast-paced anime PvP fighting game on Roblox with over **17 billion visits**, developed by Yielding Arts.
 
 The script locks onto everything that moves.
 
@@ -29,16 +30,8 @@ The script locks onto everything that moves.
 ## Usage
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/main/Anti-Emo.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/main/Anti Emo.lua"))()
 ```
-
----
-
-## Supported Game
-
-| Game | Platform |
-|------|----------|
-| The Strongest Battlegrounds (TSB) | Roblox |
 
 ---
 
@@ -64,3 +57,5 @@ Maintained and updated irregularly depending on game patches and new mechanics.
 ## License
 
 See [LICENSE](./LICENSE) for full terms.
+
+> *"Don't call it yours. You didn't build it."*
