@@ -35,7 +35,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/software
 
 ## Rage Version
 
-``lua
+```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/software/Antiz.lua"))()
 ```
 
