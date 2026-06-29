@@ -6,7 +6,7 @@
 
 ## What is this?
 
-Anti Emo is a Lua-based script for [The Strongest Battlegrounds](https://www.roblox.com/games/10449761493/The-Strongest-Battlegrounds) — a fast-paced anime PvP fighting game on Roblox with over **17 billion visits**, developed by Yielding Arts.
+Anti Emo is a Lua-based script for [The Strongest Battlegrounds](https://www.roblox.com/share?code=f23f5923ef2c3b489772b0915a246a1e&type=ExperienceDetails&stamp=1782772521698) — a fast-paced anime PvP fighting game on Roblox with over **17 billion visits**, developed by Yielding Arts.
 
 The script fucks everything that moves. If it doesn't, he'll force.
 
