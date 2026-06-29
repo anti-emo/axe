@@ -33,6 +33,12 @@ The script fucks everything that moves. If it doesn't, he'll force.
 loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/software/Anti-Emo.lua"))()
 ```
 
+## Rage Version
+
+``lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/anti-emo/axe/software/Antiz.lua"))()
+```
+
 ---
 
 ## History
